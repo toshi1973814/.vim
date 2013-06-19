@@ -22,6 +22,7 @@ set nocompatible               " be iMproved
  Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'vim-ruby/vim-ruby'
  Bundle 'tpope/vim-haml.git'
+ Bundle 'scrooloose/nerdcommenter'
  " ...
 
  filetype plugin indent on     " required!
