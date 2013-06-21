@@ -17,12 +17,14 @@ set nocompatible               " be iMproved
  Bundle 'tpope/vim-rails.git'
  " vim-scripts repos
  Bundle 'L9'
- Bundle 'FuzzyFinder'
+ " Bundle 'FuzzyFinder'
  " non github repos
  Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'vim-ruby/vim-ruby'
  Bundle 'tpope/vim-haml.git'
  Bundle 'scrooloose/nerdcommenter'
+ Bundle 'kien/ctrlp.vim'
+ " Bundle 'bootleq/vim-ruby-enccomment'
  " ...
 
  filetype plugin indent on     " required!
@@ -74,12 +76,11 @@ function! <SID>StripTrailingWhitespaces()
     call cursor(l, c)
 endfunction
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
-    " vim-fuzzyfinder plugin
-    map <Leader>t :FufFile<Enter>
-    " start recursive search with a comma. see help for 'fuf-abbreviation'
-    let g:fuf_abbrevMap = {
-            \   "^," : [
-            \     "**/",
-            \   ],
-            \ }
 "set backupdir=~/tmp
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = ''
+map <F3> :CtrlP
+map <F1> 1Gi# -*- encoding : utf-8 -*-<CR><Esc>
+map <F2> 1Gi-# -*- encoding : utf-8 -*-<CR><Esc>
+map <F6> :set mouse=a
+map <F7> :set mouse=
