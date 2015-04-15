@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/yasuda/work/rails_projects/coore_on_rails/spec/support/coore'
-let g:netrw_dirhist_2='/Users/yasuda/work/rails_projects/coore_on_rails/spec/factories'
-let g:netrw_dirhist_3='/Users/yasuda/work/rails_projects/coore_on_rails/spec/support/coore'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/yasuda/work/chef-repo/.git/refs/heads'
+let g:netrw_dirhist_2='/Users/yasuda/work/rails_projects/coore_on_rails/lib/active_admin/register_partials/estate_segment_exports'
+let g:netrw_dirhist_3='/Users/yasuda/work/rails_projects/coore_on_rails/lib/active_admin/register_partials'
+let g:netrw_dirhist_4='/Users/yasuda/work/rails_projects/coore_on_rails/app/views/estate_sale_query_forms'
+let g:netrw_dirhist_5='/Users/yasuda/work/rails_projects/coore_on_rails/config/param_key_shortening_dictionaries'
+let g:netrw_dirhist_6='/Users/yasuda/work/rails_projects/coore_on_rails/app/views/cells/estate_sale_query_form'
+let g:netrw_dirhist_7='/Users/yasuda/work/rails_projects/coore_on_rails/app/views/cells'
