@@ -49,6 +49,8 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'MattesGroeger/vim-bookmarks'
 "Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-endwise'
+Plugin 'AndrewRadev/switch.vim'
 
 " Bundle 'bootleq/vim-ruby-enccomment'
 " ...

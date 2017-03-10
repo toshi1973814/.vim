@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/yasuda/work/rails_projects/coore_on_rails/app/assets/javascripts/angular-hybrid-on-rails/directives'
-let g:netrw_dirhist_2='/Users/yasuda/work/rails_projects/coore_on_rails/app/assets/javascripts/angular-hybrid-on-rails/controllers'
-let g:netrw_dirhist_3='/Users/yasuda/work/rails_projects/coore_on_rails/app/assets/javascripts/angular-hybrid-on-rails/directives'
-let g:netrw_dirhist_4='/Users/yasuda/work/chef-repo/nodes'
-let g:netrw_dirhist_5='/Users/yasuda/work/rails_projects/coore_on_rails/lib/coore/rake/convert_estates'
-let g:netrw_dirhist_6='/Users/yasuda/work/rails_projects/coore_on_rails/app/decorators'
-let g:netrw_dirhist_7='/Users/yasuda/work/rails_projects/coore_on_rails/lib/coore/rake/convert_estates'
-let g:netrw_dirhist_8='/Users/yasuda/work/rails_projects/coore_on_rails/config/param_key_shortening_dictionaries'
-let g:netrw_dirhist_9='/Users/yasuda/work/rails_projects/responsive_on_rails'
+let g:netrw_dirhist_cnt =0
