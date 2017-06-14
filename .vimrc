@@ -97,7 +97,6 @@ cabbr rex Rextract
 cabbr co copen
 
 " map
-"map <F4> odebugger<Esc>:w
 
 " others
 
