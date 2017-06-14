@@ -10,6 +10,8 @@ set wildmenu
 
 command! MakeTags !ctags -R .
 
+" use g^] for ambiguous tags
+
 "set rtp+=~/.vim/bundle/vundle/
 "call vundle#rc()
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -51,6 +53,8 @@ Plugin 'MattesGroeger/vim-bookmarks'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-endwise'
 Plugin 'AndrewRadev/switch.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'mileszs/ack.vim'
 
 " Bundle 'bootleq/vim-ruby-enccomment'
 " ...
@@ -195,3 +199,11 @@ cab vs Vs
 "python from powerline.vim import setup as powerline_setup
 "python powerline_setup()
 "python del powerline_setup
+
+let g:switch_custom_definitions =
+  \ [
+  \   ['unless ', 'if '],
+  \   ['unless(', 'if('],
+  \ ]
+
+map <C-n> :NERDTreeToggle<CR>
