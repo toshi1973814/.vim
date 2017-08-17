@@ -12,53 +12,49 @@ command! MakeTags !ctags -R .
 
 " use g^] for ambiguous tags
 
-"set rtp+=~/.vim/bundle/vundle/
-"call vundle#rc()
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" Specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
 
-" let Vundle manage Vundle
-" required!
-"Plugin 'gmarik/vundle'
-Plugin 'VundleVim/Vundle.vim'
+Plug 'VundleVim/Vundle.vim'
 
 " My Plugins here:
 "
 " original repos on github
-Plugin 'tpope/vim-fugitive'
-"Plugin 'Lokaltog/vim-easymotion'
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'tpope/vim-rails.git'
+Plug 'tpope/vim-fugitive'
+"Plug 'Lokaltog/vim-easymotion'
+"Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plug 'tpope/vim-rails.git'
 " vim-scripts repos
-Plugin 'L9'
-" Plugin 'FuzzyFinder'
+Plug 'vim-scripts/L9'
+" Plug 'FuzzyFinder'
 " non github repoabolish.vims
-"Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-haml.git'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'kien/ctrlp.vim'
-Plugin 'abolish.vim'
-"Plugin 'git://github.com/burnettk/vim-angular.git'
-Plugin 'wesQ3/vim-windowswap'
-Plugin 'tpope/vim-unimpaired'
-"Plugin 'vim-scripts/autotags'
-"Plugin 'powerman/vim-plugin-autosess'
-"Plugin 'haya14busa/incsearch.vim'
-"Plugin 'haya14busa/incsearch-easymotion.vim'
-"Plugin 'scrooloose/syntastic'
-"Plugin 'tpope/vim-obsession'
-Plugin 'MattesGroeger/vim-bookmarks'
-"Plugin 'itchyny/lightline.vim'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-endwise'
-Plugin 'AndrewRadev/switch.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'mileszs/ack.vim'
+"Plug 'git://git.wincent.com/command-t.git'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-haml.git'
+Plug 'scrooloose/nerdcommenter'
+Plug 'kien/ctrlp.vim'
+Plug 'vim-scripts/abolish.vim'
+"Plug 'git://github.com/burnettk/vim-angular.git'
+Plug 'wesQ3/vim-windowswap'
+Plug 'tpope/vim-unimpaired'
+"Plug 'vim-scripts/autotags'
+"Plug 'powerman/vim-plugin-autosess'
+"Plug 'haya14busa/incsearch.vim'
+"Plug 'haya14busa/incsearch-easymotion.vim'
+"Plug 'scrooloose/syntastic'
+"Plug 'tpope/vim-obsession'
+Plug 'MattesGroeger/vim-bookmarks'
+"Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-endwise'
+Plug 'AndrewRadev/switch.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'mileszs/ack.vim'
 
-" Bundle 'bootleq/vim-ruby-enccomment'
-" ...
-call vundle#end()
+" Initialize plugin system
+call plug#end()
 
 filetype plugin indent on     " required!
 "
