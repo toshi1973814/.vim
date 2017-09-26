@@ -17,22 +17,20 @@ command! MakeTags !ctags -R .
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-Plug 'VundleVim/Vundle.vim'
-
 " My Plugins here:
 "
 " original repos on github
 Plug 'tpope/vim-fugitive'
 "Plug 'Lokaltog/vim-easymotion'
 "Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plug 'tpope/vim-rails.git'
+Plug 'tpope/vim-rails'
 " vim-scripts repos
 Plug 'vim-scripts/L9'
 " Plug 'FuzzyFinder'
 " non github repoabolish.vims
 "Plug 'git://git.wincent.com/command-t.git'
 Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-haml.git'
+Plug 'tpope/vim-haml'
 Plug 'scrooloose/nerdcommenter'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/abolish.vim'
